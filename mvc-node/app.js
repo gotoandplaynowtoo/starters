@@ -1,8 +1,8 @@
 'use strict';
 
+const path = require('path');
 const express = require('express');
 const cookieParser = require('cookie-parser');
-const path = require('path');
 const config = require('./config');
 const routes = require('./routes');
 
