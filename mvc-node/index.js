@@ -1,10 +1,8 @@
 'use strict';
 
 const dotenv = require('dotenv');
-const app = require('./app');
-const database = require('./database');
+const bootstrap = require('./bootstrap');
 
 dotenv.config();
-database();
-app({});
+bootstrap();
 
